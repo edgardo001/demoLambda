@@ -16,3 +16,6 @@ l.stream().filter(p -> p.getEdad() == 27).peek(p -> System.out.println("Vive en:
 
 long count = l.stream().filter(p -> p.getNombre().equals(findByNombre) && p.getApellido().equals("altamirano")).count();
 ```
+
+* Codigo Principal:
+https://github.com/edgardo001/demoLambda/blob/master/src/demolambda/DemoLambda.java
